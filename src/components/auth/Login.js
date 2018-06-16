@@ -40,7 +40,7 @@ class Login extends Component {
 
         this.props.loginUser(userData);
 
-        //console.log(user);
+        console.log(userData);
     }
 
  
@@ -103,3 +103,5 @@ const mapStateToProps = (state) => ({
 })
 
 export default connect(mapStateToProps, { loginUser })(Login); 
+
+
